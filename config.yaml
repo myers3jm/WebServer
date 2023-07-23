@@ -1,0 +1,21 @@
+---
+###
+# This file must have the following mappings:
+# - title (a scalar)
+# - contents (a sequence of mappings to scalars)
+###
+title: JMM Webserver # Scalar
+contents: # Sequence of maps
+  - greeting header:
+    type: h1
+    content: Welcome to my web server!
+    style: color:#ff0000
+  - intro paragraph:
+    type: p
+    content: This is a webserver running on Matt's computer. It is written in C++, and is configured using a YAML file. The contents of the webpage can be modified without taking the server down at all!
+    style: color:#0000ff
+  - subheading:
+    type: h2
+    content: One day soon I hope to add images, text fields, and even functionality!
+    style: color:#00ff00
+...
